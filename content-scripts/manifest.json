@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name" : "Chrome-Extension Background Color Change",
+    "version": "1.0",
+
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background":{
+      "service_worker": "background.js"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://*.nytimes.com/*"],
+        "js": ["content-script.js"]
+      }
+
+    ],
+
+    "browser_action" : {
+    },
+
+    "options_page": "options.html"
+
+   }
