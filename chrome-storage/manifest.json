@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name" : "Storage",
+    "version": "1.0",
+
+    "permissions": [
+      "storage"
+    ],
+    "background":{
+      "service_worker": "background.js"
+    },
+
+    "content_scripts": [
+      {
+
+      }
+
+    ],
+
+    "browser_action" : {
+    },
+
+    "options_page": "options.html"
+
+   }
