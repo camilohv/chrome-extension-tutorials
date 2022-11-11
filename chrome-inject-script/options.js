@@ -1,3 +1,5 @@
+
+/*
 // In-page cache of the user's options
 const options = {};
 
@@ -11,4 +13,4 @@ chrome.storage.sync.get('options', (data) => {
 optionsForm.debug.addEventListener('change', (event) => {
   options.debug = event.target.checked;
   chrome.storage.sync.set({options});
-});
+});*/
