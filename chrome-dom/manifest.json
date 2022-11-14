@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Chrome Extension Sample",
+    "name": "Chrome DOM",
     "description": "This extension lets you manipulate the DOM",
     "version": "1.0",
     "homepage_url": "https://github.com/dvidsilva/chrome-ext-sample",
